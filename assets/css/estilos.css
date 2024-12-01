@@ -1,0 +1,36 @@
+.main-section, .main-venta, .main-alquiler {
+    background-size: cover; 
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.main-section{
+    background-image: url('../img/img-main.jpeg');
+}
+.main-alquiler{
+    background-image: url('https://img.freepik.com/foto-gratis/dos-amigas-felices-gafas-sol-vacaciones-pais-tropical_343596-726.jpg?t=st=1732924867~exp=1732928467~hmac=09f81c8d8d4ac0f8a6c9389c44af494e8141061e90070442dd95e3a0c7a09d5e&w=900');
+}
+.main-venta{
+    background-image: url('https://img.freepik.com/foto-gratis/naturaleza-muerta-llaves-nuevo-hogar_23-2151015269.jpg?t=st=1732923313~exp=1732926913~hmac=48fc1d2f373e79914aabbdf726d16286534c035d99fcdb96907e8ebd06d36919&w=900');
+}
+
+#portada-venta{
+    margin-left: 8em;
+}
+#portada-alquiler{
+    margin-right: 17em;
+    font-size: 1.8em;
+}
+
+.card {
+    height: 100px;
+}
+
+.card img{
+    height: 250px;
+}
